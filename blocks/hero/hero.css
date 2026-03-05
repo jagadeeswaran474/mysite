@@ -9,11 +9,15 @@
   min-height: 300px;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero {
+
+  h1,
+  h6 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--background-color);
+  }
 }
 
 .hero picture {
@@ -30,7 +34,7 @@
   height: 100%;
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   .hero {
     padding: 40px 32px;
   }
